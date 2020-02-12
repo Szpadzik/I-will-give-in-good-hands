@@ -1,0 +1,52 @@
+@import "settings/_fonts";
+@import "settings/_colors";
+
+.four_steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 45px;
+  p {
+    font-size: 35px;
+    color: $darkgrey_color;
+  }
+}
+
+.four_icon_steps {
+  display: flex;
+  flex-direction: row;
+  height: 310px;
+  background-color: #F0F1F1;
+  justify-content: space-evenly;
+  padding-top: 70px;
+
+  img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .icon {
+    text-align: center;
+  }
+}
+
+.steps_button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 45px;
+
+  .btn {
+    width: 250px;
+    height: 100px;
+    color: $darkgrey_color;
+    font-family: $font_base;
+    font-size: 34px;
+    text-decoration: none;
+    border: 0.75px solid #3C3C3C;
+    font-weight: lighter;
+  }
+}

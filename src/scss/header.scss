@@ -1,0 +1,102 @@
+@import "settings/_fonts";
+@import "settings/_colors";
+
+.banner {
+  display: flex;
+  flex-direction: row;
+}
+
+//photo//
+
+.photo {
+  width: 45%;
+ //height: 650px;
+  background-image: url("../assets/Home-Hero-Image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+//navigation//
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.up_nav, .bottom_nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 37px;
+
+  .nav {
+    color: $grey_color;
+    font-family: $font_base;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 9px 20px 9px 20px;
+  }
+
+  .nav:hover {
+    border: 0.75px solid #FAD648;
+  }
+}
+
+.bottom_nav {
+  top: 90px;
+  padding-top: 20px;
+
+  .nav {
+    color: $darkgrey_color;
+    font-family: $font_base;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 9px 20px 9px 20px;
+  }
+
+  .nav:hover {
+    border: 0.75px solid #3C3C3C;
+  }
+}
+
+
+//welcome text //
+
+.welcome {
+  padding-top: 150px;
+  padding-bottom: 260px;
+  padding-left: 200px;
+  display: flex;
+  justify-content: center;
+
+  h2 {
+    font-family: $font_base;
+    font-weight: lighter;
+    font-size: 35px;
+    color: $darkgrey_color;
+    text-align: center;
+    margin: 0px;
+  }
+
+  .btn {
+    width: 250px;
+    height: 100px;
+    color: $darkgrey_color;
+    font-family: $font_base;
+    font-size: 36px;
+    text-decoration: none;
+    border: 0.75px solid #3C3C3C;
+    margin-right: 35px;
+    font-weight: lighter;
+    margin-left: 32px;
+  }
+}
+
+.ornament {
+  background-image: url("../assets/Decoration.svg");
+  height: 33px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 15px;
+  padding-bottom: 50px;
+}

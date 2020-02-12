@@ -1,0 +1,30 @@
+@import "settings/_fonts";
+@import "settings/_colors";
+
+.yellow_block {
+
+  height: 354px;
+  background-color: $yellow_color;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.block {
+  width: 250px;
+  padding-top: 20px;
+ // padding-bottom: 40px;
+  text-align: center;
+
+  h2 {
+    font-size: 90px;
+    color: $brown_color;
+    font-weight: lighter;
+    margin: 0;
+  }
+  p{
+    font-size: 16px;
+    color: $darkgrey_color;
+  }
+}
