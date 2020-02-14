@@ -11,6 +11,7 @@ function FourSteps() {
         <div>
             <div className="four_steps">
                 <p>Wystarczą 4 proste kroki</p>
+                <hr></hr>
                 <img src={deco}/>
             </div>
 
@@ -18,7 +19,7 @@ function FourSteps() {
 
                 <div className="icon">
                     <img src={icon1}/>
-                    <h4>Wybierz rzeczy</h4>
+                    <article>Wybierz rzeczy</article>
                     <hr></hr>
                     <p>ubrania, zabawaki <br></br>
                         sprzęt i inne
@@ -27,7 +28,7 @@ function FourSteps() {
 
                 <div className="icon">
                     <img src={icon2}/>
-                    <h4>Spakuj je</h4>
+                    <article>Spakuj je</article>
                     <hr></hr>
                     <p>skorzystaj z <br></br>
                         worków na śmieci
@@ -36,9 +37,9 @@ function FourSteps() {
 
                 <div className="icon">
                     <img src={icon3}/>
-                    <h4>Zdecuduj komu
+                    <article>Zdecuduj komu
                         <br></br>
-                        chcesz pomóc</h4>
+                        chcesz pomóc</article>
                     <hr></hr>
                     <p>wybierz zaufane<br></br>
                         miejsce
@@ -47,9 +48,7 @@ function FourSteps() {
 
                 <div className="icon">
                     <img src={icon4}/>
-                    <h4>Zamów kuriera
-                        <br></br>
-                        chcesz pomóc</h4>
+                    <article>Zamów kuriera</article>
                     <hr></hr>
                     <p>kurier przyjedzie <br></br>
                         w dogodnym terminie

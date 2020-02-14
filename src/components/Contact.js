@@ -1,10 +1,10 @@
 import React from "react";
-
+import photo_back from "../assets/Background-Contact-Form.jpg";
 
 function Contact() {
     return (
         <>
-            <p>contact us using this mail dsnjjgu2@FSNJFNSDJGNSD</p>
+            <img src={photo_back}/>
         </>
     );
 }

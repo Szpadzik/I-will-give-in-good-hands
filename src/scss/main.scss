@@ -3,10 +3,12 @@
 @import "header.scss";
 @import "threecolumns.scss";
 @import "foursteps";
+@import "aboutus";
+@import "whowehelp.scss";
 
 body {
   font-family: $font_base;
   width: 100%;
-  margin: 0px;
+  margin: 0;
 }
 
