@@ -22,6 +22,7 @@
 .menu {
   display: flex;
   flex-direction: column;
+  padding-right: 40px;
 }
 
 .up_nav, .bottom_nav {
@@ -78,6 +79,11 @@
     margin: 0px;
   }
 
+}
+.btnDiv {
+ display: flex;
+flex-direction: row;
+
   .btn {
     width: 250px;
     height: 100px;
@@ -91,7 +97,6 @@
     margin-left: 32px;
   }
 }
-
 .ornament {
   background-image: url("../assets/Decoration.svg");
   height: 33px;

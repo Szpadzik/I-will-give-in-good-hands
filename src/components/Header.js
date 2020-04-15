@@ -27,8 +27,10 @@ function Header() {
                             <h2> Zacznij pomagać! <br></br>
                                 Oddaj niechciane rzeczy w zaufane ręce.</h2>
                             <div className="ornament"></div>
-                            <button className="btn">ODDAJ RZECZY</button>
-                            <button className="btn">ZORGANIZUJ ZBIÓRKĘ</button>
+                            <div className="btnDiv" >
+                                     <button className="btn">ODDAJ RZECZY</button>
+                                     <button className="btn">ZORGANIZUJ ZBIÓRKĘ</button>
+                            </div>
                         </div>
                     </div>
                 </div>
